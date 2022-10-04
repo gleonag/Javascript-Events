@@ -4,3 +4,10 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+
+function pushBotton (){
+	window.alert("Wujuuuu!!");
+
+}
+const button = document.getElementById("theGreen");
+button.addEventListener("click", pushBotton);
