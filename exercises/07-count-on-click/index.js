@@ -19,7 +19,7 @@ window.increaseCounter = function increaseCounter()
 //This is a global variable
 var counter = 0;
 
-window.onload = function loadFunction()
+window.increase = function decreaseCounter()
 {
 	//here I set the screen to the initial value when the website is fully loaded.
 	document.getElementById('screen').innerHTML = "The counter value is "+counter;
